@@ -33,6 +33,10 @@ body {
   text-decoration: none;
 }
 
+.top__link:hover {
+  color: #f25822;
+}
+
 .top_content {
   display: flex;
   justify-content: space-between;
@@ -55,17 +59,16 @@ body {
 }
 
 .start_now {
-  width: 140px;
-  height: 50px;
   background: #f25822;
   box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
   border-radius: 50px;
   font-size: 15px;
   font-weight: 700;
   line-height: 18px;
+  padding: 15px 36px;
   color: #ffffff;
-  border: none;
   margin-right: 72px;
+  text-decoration: none;
 }
 
 .watch {
@@ -81,4 +84,112 @@ body {
   padding-bottom: 96px;
   display: flex;
   justify-content: space-between;
+}
+
+.content {
+  background: #fafafa;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 310px);
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.features-card {
+  display: grid;
+  gap: 25px;
+  padding: 40px 30px 25px;
+  background: #ffffff;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.features-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000000;
+}
+
+.features-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #666666;
+}
+
+.features-link {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #000000;
+  text-decoration: none;
+}
+
+.services {
+  padding-top: 92px;
+  padding-bottom: 100px;
+}
+
+.services-title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.services-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 55px;
+}
+
+.services-item {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  justify-content: space-between;
+}
+
+.item {
+  display: grid;
+  justify-items: center;
+  gap: 25px;
+  background: #ffffff;
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+  padding-bottom: 50px;
+}
+
+.item-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000000;
+}
+
+.item-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  color: #aaaaaa;
+}
+
+.item-link {
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  padding: 15px 46px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
 }
